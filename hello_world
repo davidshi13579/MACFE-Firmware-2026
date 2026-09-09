@@ -1,1 +1,5 @@
-print("Hello World")
+def greet(name):
+    return f"Hello, {name}! Welcome to MAC Formula Electric."
+
+name = input("Enter your name: ")
+print(greet(name))
